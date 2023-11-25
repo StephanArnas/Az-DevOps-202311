@@ -1,3 +1,4 @@
+using AzDevOps202311.Common;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AzDevOps202311.Controllers;
@@ -28,5 +29,11 @@ public class WeatherForecastController : ControllerBase
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+    }
+
+    [HttpGet("Summaries", Name = "GetSummaries")]
+    public IEnumerable<string> GetSummaries()
+    {
+        return Summaries.Select(summary => summary.CapitalizeFirstLetter()).ToArray();
     }
 }

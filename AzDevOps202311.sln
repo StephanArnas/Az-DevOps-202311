@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzDevOps202311", "AzDevOps202311\AzDevOps202311.csproj", "{33B552E8-0392-4F17-802F-54ABAE12263B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzDevOps202311.Common", "AzDevOps202311.Common\AzDevOps202311.Common.csproj", "{D62B3F58-7DCC-4C50-BE53-068E2B761A44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{33B552E8-0392-4F17-802F-54ABAE12263B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B552E8-0392-4F17-802F-54ABAE12263B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B552E8-0392-4F17-802F-54ABAE12263B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62B3F58-7DCC-4C50-BE53-068E2B761A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62B3F58-7DCC-4C50-BE53-068E2B761A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62B3F58-7DCC-4C50-BE53-068E2B761A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62B3F58-7DCC-4C50-BE53-068E2B761A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

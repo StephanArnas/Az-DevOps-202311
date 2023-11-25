@@ -11,4 +11,8 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AzDevOps202311.Common\AzDevOps202311.Common.csproj" />
+    </ItemGroup>
+
 </Project>
